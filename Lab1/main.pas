@@ -76,7 +76,9 @@ begin
 end;
 
 begin
-  WriteLn('Фунция: f(x)=sin(x+0.5)-2*x+1.5 Интервал: [1.0; 1.9] E=0.0001');
+  WriteLn('Фунция: f(x)=sin(x+0.5)-2*x+1.5');
+  WriteLn('Интервал: [1.0; 1.9]');
+  WriteLn('E=0.0001');
   WriteLn('Производные: f`=cos(x+0.5)-2 f``=-sin(x+0.5)');
   Write('Метод итераций: ');
   Iterative;
